@@ -31,7 +31,7 @@ fabricate one.
 
 ## Data
 
-- `src/ordinance/facts.cljc` — the catalog, source of truth.
+- `src/ordinance/facts.cljk` — the catalog, source of truth.
 - `schema/ordinance.edn` — DataScript schema.
 - `data/datascript-tx.edn` — derived DataScript tx-data (query this
   alongside other `cloud-itonami`/`etzhayyim` compliance-fact sources via
@@ -54,7 +54,7 @@ catalog** (ADR-2607171400, `cloud-itonami-municipality-culture-catalog`
 in `com-junkawasaki/root`) — local dishes, protected products, beverages,
 festivals and heritage sites for Helsinki:
 
-- `src/culture/facts.cljc` — the catalog, source of truth.
+- `src/culture/facts.cljk` — the catalog, source of truth.
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
   the catalog, never hand-edited).
